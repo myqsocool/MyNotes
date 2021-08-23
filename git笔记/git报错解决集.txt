@@ -1,0 +1,7 @@
+报错:fatal: unable to access 'https://github.com/myqsocool/GitNote.git/': OpenSSL SSL_read: Connection was reset, errno 10054
+解决方法
+git config --global http.sslVerify "false"   	1
+git config --global credential.helper store	2
+	
+
+remote: error: GH007: Your push would publish a private email address.

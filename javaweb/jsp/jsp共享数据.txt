@@ -1,0 +1,7 @@
+作用域对象:
+全局:request.getServletConetext().setAttribute("存储数据的名称",数据)
+会话:request.getSession().setAttribute()
+请求:request.setAttribute()
+
+请求转发
+request.getRequest.Dispatcher("/资源名").forward(req,resp)
